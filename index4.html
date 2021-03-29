@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>test boot</title> 
+    </head>
+    <body>
+        <p><strong>Exercice:</strong>Créez trois champs pour entrer un nom, prénom et une ville. Un bouton doit permettre de les afficher dans une modale.</p> 
+        <form id=myForm>
+        <div class="container">
+        <div class="row">
+           <div class="col-md-8" >
+             <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Veuillez entrer votre nom :</label>
+              <input type="text" class="form-control" id="nom" placeholder="Veuillez entrer votre nom :">
+            </div>
+          </div>
+          <div class="col-md-8" >
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Veuillez entrer votre prénom :</label>
+              <input type="text" class="form-control" id="prenom" placeholder="Veuillez entrer votre prénom">
+            </div>
+          </div>
+          <div class="col-md-8" >
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Veuillez entrer votre ville :</label>
+              <input type="text" class="form-control" id="ville" placeholder="Veuillez entrer votre ville">
+            </div>
+          </div>
+        </div>
+        </div>
+    </form>
+         <div class="container" >
+        <button id="btn" onclick="getInputValue();getInputValue1(); getInputValue2()"  type="button" class="btn btn-primary btn-lg">Afficher</button>
+        </div>
+
+        <script  src="dist/js/jquery-3.5.1.min.js"></script>
+        <script  src="dist/js/bootstrap.min.js" ></script>
+        <script src="main3.js"></script> 
+    </body>
+</html>
